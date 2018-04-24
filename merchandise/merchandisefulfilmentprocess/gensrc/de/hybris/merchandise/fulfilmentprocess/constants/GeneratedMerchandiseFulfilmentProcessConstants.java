@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Apr 20, 2018 3:07:13 PM                     ---
+ * --- Generated at Apr 23, 2018 3:06:19 PM                     ---
  * ----------------------------------------------------------------
  *  
  * [y] hybris Platform
@@ -32,6 +32,13 @@ public class GeneratedMerchandiseFulfilmentProcessConstants
 			public static final String DONE = "done".intern();
 			public static final String WAITINGFORCONSIGNMENT = "waitingForConsignment".intern();
 			public static final String WAREHOUSECONSIGNMENTSTATE = "warehouseConsignmentState".intern();
+		}
+	}
+	public static class Enumerations
+	{
+		public static class OrderStatus
+		{
+			public static final String WAITING_FOR_IMMEDIATE_CANCEL = "WAITING_FOR_IMMEDIATE_CANCEL".intern();
 		}
 	}
 	
